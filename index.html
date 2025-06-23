@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SortLab</title>
+  <link rel="stylesheet" href="styles.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="heading">SortLab</p>
+  <div class="container">    
+    <!-- Control Panel -->
+    <div class="control-panel">
+      <button id="generatearrayBtn" class="sort-btn" onclick="generateArray()">Generate New Array</button>
+      <button id="bubbleSortBtn" class="sort-btn" onclick="bubbleSort()">Bubble Sort</button>
+      <button id="mergeSortBtn" class="sort-btn" onclick="mergeSort()">Merge Sort</button>
+      <button id="quickSortBtn" class="sort-btn" onclick="quickSort()">Quick Sort</button>
+      
+      
+      <!-- Speed and Size Sliders -->
+      <label for="speedRange">Animation Speed</label>
+      <input type="range" id="speedRange" min="1" max="60" value="50" onchange="updateSpeed()">
+      
+      <label for="sizeRange">Array Size</label>
+      <input type="range" id="sizeRange" min="10" max="60" value="50" onchange="generateArray()">
+    </div>
+    
+    <!-- Array Container -->
+    <div id="array-container" class="array-container"></div>
+    
+          <!-- Time Complexity Display -->
+    
+          <!-- Time Complexity Display -->
+          <div class="complexity-display">
+            <p><b>Current Algorithm: </b><span id="currentAlgorithm">None</span></p>
+            
+            <!-- Show Comparison Button -->
+            <button id="showComparisonBtn" onclick="toggleComplexityImage()"> Show Time & Space Complexity Comparison</button>
+
+            <!-- Image Element (Initially Hidden) -->
+            <div id="complexityImageContainer" style="display: none; margin-top: 20px;">
+              <img id="complexityImage" src="comparison.png" alt="Complexity Comparison" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 10px;">
+            </div>
+          </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script>
+    // Automatically generate an array when the page loads
+    window.onload = generateArray;
+  </script>
+</body>
+</html>
