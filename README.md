@@ -2,25 +2,21 @@
 
 A web-based visual tool to demonstrate how different sorting algorithms work through real-time animations and intuitive UI controls.
 
----
 
-## 🚀 Live Demo
+##  Live Demo
 
-🌐 [Coming Soon]  
-*Deploy this on Firebase Hosting or GitHub Pages and paste the link here.*
+🌐 webpage link: https://sortlab.netlify.app/
 
----
 
-## 🧠 What It Does
+##  What It Does
 
 This interactive visualizer allows users to:
 - Observe the **step-by-step process** of various sorting algorithms
 - Visualize **comparisons**, **swaps**, and **sorted arrays**
 - Adjust **array size** and **animation speed**
 
----
 
-## 🔧 Features
+##  Features
 
 - 🔁 Dynamic array generation
 - 🎞️ Real-time animations of sorting steps
@@ -32,7 +28,7 @@ This interactive visualizer allows users to:
   - ✅ Merge Sort
   - ✅ Quick Sort
 
----
+
 
 ##  Technologies Used
 
@@ -40,10 +36,11 @@ This interactive visualizer allows users to:
 | Deployment     | netlify
 | Version Control| Git, GitHub  
 
+📞Contact Me: Anvith U 
+✉  Email: anvith435@gmail.com 
+🔗 LinkedIn: www.linkedin.com/in/anvithu
+
+video link: https://drive.google.com/file/d/18fxM8ElOyy1vZkuMrpGIrG9oQM41QD1o/view?usp=sharing
 
 
-## 📸 Screenshots
 
-*(Add screenshots here later by uploading PNG/JPGs)*  
-```markdown
-![App Screenshot](./screenshot.png)
